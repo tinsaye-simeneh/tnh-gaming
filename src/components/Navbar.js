@@ -63,7 +63,7 @@ const Navbar = () => {
               </li>
               <li className="nav-item mx-2" id="Account">
                 <Link to={Redirect} className="nav-link">
-                  <button className="btn btn-success p-3 full-width">
+                  <button className="border rounded btn-green p-3 full-width">
                     Book a demo
                   </button>
                 </Link>
