@@ -42,12 +42,12 @@ const Navbar = () => {
                 </Link>
               </li>
               <li className="nav-item mt-3 mx-2">
-                <Link to="/contact" className="nav-link">
+                <Link to="/service/wrt" className="nav-link">
                   Services
                 </Link>
               </li>
               <li className="nav-item mt-3 mx-2">
-                <Link to="/contact" className="nav-link">
+                <Link to="/career" className="nav-link">
                   Career
                 </Link>
               </li>
