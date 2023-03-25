@@ -38,10 +38,18 @@
   margin-top: 12%;
   height: 10%;
 }
+.custom-container {
+  width: 75%;
+  height: 100%;
+}
 @media screen and (max-width: 768px) {
   .carousel-btn {
     margin-top: 45%;
     height: 10%;
+  }
+  .custom-container {
+    width: 100%;
+    height: 100%;
   }
   .heading-text {
     font-size: 1.5rem;

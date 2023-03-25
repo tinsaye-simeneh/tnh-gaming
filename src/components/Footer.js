@@ -42,7 +42,7 @@ const Footer = () => {
           <h3 className="text-white">Services</h3>
           <div className="mx-auto my-3">
             <ul className="list-unstyled">
-              <li className="text-white">Brt Bet turn Key</li>
+              <li className="text-white">wrt Bet turn Key</li>
               <li className="text-white">Managed Services</li>
               <li className="text-white">Digital Marketing</li>
               <li className="text-white">Software Development</li>

@@ -42,7 +42,7 @@ const Navbar = () => {
                 </Link>
               </li>
               <li className="nav-item mt-3 mx-2">
-                <Link to="/exclusive" className="nav-link">
+                <Link to="/contact" className="nav-link">
                   Services
                 </Link>
               </li>
@@ -52,7 +52,7 @@ const Navbar = () => {
                 </Link>
               </li>
               <li className="nav-item mt-3 mx-2">
-                <Link to="" className="nav-link">
+                <Link to="/about" className="nav-link">
                   About us
                 </Link>
               </li>
@@ -62,7 +62,7 @@ const Navbar = () => {
                 </Link>
               </li>
               <li className="nav-item mx-2" id="Account">
-                <Link to={Redirect} className="nav-link">
+                <Link to="/contact" className="nav-link">
                   <button className="border rounded btn-green p-3 full-width">
                     Book a demo
                   </button>

@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client";
 import Fixed from "./Fixed-comps";
 import ContactUs from "./components/ContactUs";
 import Home from "./components/Home";
+import About from "./components/About";
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -14,6 +15,7 @@ export default function App() {
           <Route path="/" element={<Fixed />}>
             <Route index element={<Home />} />
             <Route path="contact" element={<ContactUs />} />
+            <Route path="about" element={<About />} />
             <Route path="*" element={<Home />} />
           </Route>
         </Routes>
