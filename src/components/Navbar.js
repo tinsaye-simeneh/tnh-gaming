@@ -64,7 +64,7 @@ const Navbar = () => {
               <li className="nav-item mx-2" id="Account">
                 <Link to="/contact" className="nav-link">
                   <button className="border rounded btn-green p-3 full-width">
-                    Book a demo
+                    <i className="fas fa-user-circle"></i> Book a demo
                   </button>
                 </Link>
               </li>
