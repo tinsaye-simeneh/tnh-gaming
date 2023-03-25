@@ -11,7 +11,7 @@ const Footer = () => {
       <div className="row">
         <div className="col-md-12 text-center text-white py-3">
           <hr />
-          Tnh Gaming is a gaming community that is dedicated to providing the
+          TNH Gaming is a gaming community that is dedicated to providing the
           best gaming experience for all gamers. We are a community of gamers
           that are passionate about gaming and want to provide the best
           experience for all gamers.{" "}
@@ -41,8 +41,11 @@ const Footer = () => {
             </span>
             <br />
             <span className="text-white ms-2">
-              <a href="mailto:tnh-sales@outlook.com" className="text-white">
-                tnh-sales@outlook.com
+              <a
+                href="mailto:tnhgaming.sales@outlook.com"
+                className="text-white"
+              >
+                tnhgaming.sales@outlook.com
               </a>
             </span>
             <br />
@@ -84,7 +87,7 @@ const Footer = () => {
       </div>
       <div className="row">
         <div className="col-md-12 text-center text-white py-3">
-          <hr />© 2023 Tnh Gaming. All Rights Reserved.
+          <hr />© 2023 TNH Gaming. All Rights Reserved.
         </div>{" "}
         <hr />
       </div>{" "}

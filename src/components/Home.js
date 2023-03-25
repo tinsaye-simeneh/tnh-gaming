@@ -99,7 +99,7 @@ export default function Home() {
               class="text-dark
                 "
             >
-              Tnh Gaming is a gaming community that is dedicated to providing
+              TNH Gaming is a gaming community that is dedicated to providing
               the best gaming experience for all gamers. We are a community of
               gamers that are passionate about gaming and want to provide the
               best experience for all gamers.
