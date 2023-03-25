@@ -112,7 +112,7 @@ const Wrt = () => {
               </a>
             </li>
             <li className="list-group-item">
-              <a href="/service/ds" className="text-dark">
+              <a href="/service/dm" className="text-dark">
                 Digital Marketing
               </a>
             </li>

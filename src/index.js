@@ -7,6 +7,7 @@ import About from "./components/About";
 import Career from "./components/Career";
 import Wrt from "./components/services/Wrt";
 import Ms from "./components/services/Ms";
+import Dm from "./components/services/Dm";
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -22,6 +23,7 @@ export default function App() {
             <Route path="career" element={<Career />} />
             <Route path="service/wrt" element={<Wrt />} />
             <Route path="service/ms" element={<Ms />} />
+            <Route path="service/dm" element={<Dm />} />
             <Route path="*" element={<Home />} />
           </Route>
         </Routes>

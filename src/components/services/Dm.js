@@ -8,7 +8,7 @@ import {
 } from "react-icons/tfi";
 import "../../index.css";
 
-const Ms = () => {
+const Dm = () => {
   return (
     <div className="container">
       <div className="row bg-dark my-5 py-5">
@@ -18,7 +18,7 @@ const Ms = () => {
             fontSize: "2rem",
           }}
         >
-          Managed Services
+          Digital Marketing
           <hr
             className="text-green text-center mx-auto bg-green"
             style={{
@@ -35,23 +35,31 @@ const Ms = () => {
               fontSize: "1rem",
             }}
           >
-            Home >> Managed Services
+            Home >> Digital Marketing
           </span>
         </div>
       </div>
 
       <div className="row">
         <div className="col-md-8 mx-auto">
-          <h4 className="text-left my-4">Managed Services</h4>
+          <h4 className="text-left my-4">Digital Marketing</h4>
           <p className="text-left">
-            We provide and manage our client's customer care service, VIP, and
-            CRM services, wherever in Africa your business may be. Your
-            customers are our utmost priority and solving their queries in
-            real-time is our hallmark.
+            We come to you with a personalized digital marketing service plan,
+            then focus on creating and spreading brand awareness around
+            different popular social media platforms. Deep analysis is carried
+            out to identify which digital campaign works best for your brand,
+            and our efficient strategy is implemented and monitored accordingly.
             <br />
             <br />
-            Market Entry: We fully manage market entry service, which includes
-            end-to-end operational set-up & management, and product consultancy.
+            SEO: We provide complete search engine optimization solutions for
+            our content to reach your target audience.
+            <br />
+            <br />
+            Marketing Strategy: Whether you are an existing or new entrant in
+            Africa, STM gaming provides you with the best marketing strategy to
+            adopt in each African country of your choice. Our teams of experts
+            are spells across Africa to prepare a marketing feasibility guide
+            for your business's growth.
           </p>
           <div className="row bg-green py-3">
             <div className="col-md-8 mx-auto text-white">
@@ -85,7 +93,7 @@ const Ms = () => {
               </a>
             </li>
             <li className="list-group-item">
-              <a href="/service/dm" className="text-dark">
+              <a href="/service/ds" className="text-dark">
                 Digital Marketing
               </a>
             </li>
@@ -134,4 +142,4 @@ const Ms = () => {
   );
 };
 
-export default Ms;
+export default Dm;
