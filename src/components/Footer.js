@@ -23,9 +23,7 @@ const Footer = () => {
           <img src={Logo} alt="logo" className="img-fluid" width={150} />
           <div className="mx-auto my-3">
             <IoLocationSharp className="text-white" />
-            <span className="text-white ms-2">
-              1st Floor, St. Julians, Malta
-            </span>
+            <span className="text-white ms-2">Spain - Malta</span>
           </div>
 
           <div className="mx-auto my-3">
