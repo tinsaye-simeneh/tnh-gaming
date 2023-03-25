@@ -33,9 +33,32 @@ const Footer = () => {
             <span className="text-white ms-2">+299 999 999 08</span>
           </div>
 
-          <div className="mx-auto my-3">
-            <FaEnvelope className="text-white" />
-            <span className="text-white ms-2">tnh-sales@outlook.com</span>
+          <div className="mx-auto my-3 text-white">
+            <FaEnvelope className="text-white me-2" /> Our Email Address:
+            <br />
+            <span className="text-white ms-2">
+              <a href="mailto:sales@tnhgaming.com" className="text-white">
+                sales@tnhgaming.com
+              </a>
+            </span>
+            <br />
+            <span className="text-white ms-2">
+              <a href="mailto:tnh-sales@outlook.com" className="text-white">
+                tnh-sales@outlook.com
+              </a>
+            </span>
+            <br />
+            <span className="text-white ms-2">
+              <a href="mailto:info@tnhgaming.com" className="text-white">
+                info@tnhgaming.com
+              </a>
+            </span>
+            <br />
+            <span className="text-white ms-2">
+              <a href="mailto:contact@tnhgaming.com" className="text-white">
+                contact@tnhgaming.com
+              </a>
+            </span>
           </div>
         </div>{" "}
         <div className="col-md-4 bg-dark text-black py-5 mx-auto text-center">

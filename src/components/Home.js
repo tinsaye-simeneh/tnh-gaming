@@ -99,10 +99,10 @@ export default function Home() {
               class="text-dark
                 "
             >
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-              voluptate, quod, quia, voluptates quas voluptatem necessitatibus
-              quibusdam quae voluptatum quidem exercitationem. Quisquam, quae.
-              Quisquam, quae. Quisquam,
+              Tnh Gaming is a gaming community that is dedicated to providing
+              the best gaming experience for all gamers. We are a community of
+              gamers that are passionate about gaming and want to provide the
+              best experience for all gamers.
             </p>
             <button class="border rounded p-2 btn-green">Read More</button>
           </div>
