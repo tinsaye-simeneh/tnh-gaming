@@ -66,11 +66,46 @@ const Footer = () => {
           <h3 className="text-white">Services</h3>
           <div className="mx-auto my-3">
             <ul className="list-unstyled">
-              <li className="text-white">wrt Bet turn Key</li>
-              <li className="text-white">Managed Services</li>
-              <li className="text-white">Digital Marketing</li>
-              <li className="text-white">Software Development</li>
-              <li className="text-white">Consultancy</li>
+              <li className="text-white">
+                <a
+                  href="/service/wrt"
+                  className="text-white text-decoration-none"
+                >
+                  wrt Bet turn Key
+                </a>
+              </li>
+              <li className="text-white">
+                <a
+                  href="/service/ms"
+                  className="text-white text-decoration-none"
+                >
+                  Managed Services
+                </a>
+              </li>
+              <li className="text-white">
+                <a
+                  href="/service/dm"
+                  className="text-white text-decoration-none"
+                >
+                  Digital Marketing
+                </a>
+              </li>
+              <li className="text-white">
+                <a
+                  href="/service/sd"
+                  className="text-white text-decoration-none"
+                >
+                  Software Development
+                </a>
+              </li>
+              <li className="text-white">
+                <a
+                  href="/service/consultancy"
+                  className="text-white text-decoration-none"
+                >
+                  Consultancy
+                </a>
+              </li>
             </ul>
           </div>
         </div>{" "}
@@ -78,9 +113,29 @@ const Footer = () => {
           <h3 className="text-white">Quick Links</h3>
           <div className="mx-auto my-3">
             <ul className="list-unstyled">
-              <li className="text-white">About Us</li>
-              <li className="text-white">Career</li>
-              <li className="text-white">Contact us</li>
+              <li className="text-white">
+                <a href="/about" className="text-white text-decoration-none">
+                  About Us
+                </a>
+              </li>
+              <li className="text-white">
+                <a href="/career" className="text-white text-decoration-none">
+                  Career
+                </a>
+              </li>
+              <li className="text-white">
+                <a href="/contact" className="text-white text-decoration-none">
+                  Contact us
+                </a>
+              </li>
+              <li className="text-white">
+                <a
+                  href="/service/wrt"
+                  className="text-white text-decoration-none"
+                >
+                  Services
+                </a>
+              </li>
             </ul>
           </div>
         </div>{" "}
