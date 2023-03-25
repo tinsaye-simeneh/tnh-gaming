@@ -41,7 +41,7 @@ const Wrt = () => {
       </div>
 
       <div className="row">
-        <div className="col-8 mx-auto">
+        <div className="col-md-8 mx-auto">
           <h4 className="text-left my-4">WRT Turn Key Solution</h4>
           <p className="text-left">
             We have the honour of collaborating and partnering up with WRT, one
@@ -81,7 +81,7 @@ const Wrt = () => {
             navigation, experience, and guaranteed satisfaction.
           </p>
           <div className="row bg-green py-3">
-            <div className="col-8 mx-auto text-white">
+            <div className="col-md-8 mx-auto text-white">
               Follow us on:
               <a href="https://www.facebook.com/" className="mx-3">
                 <TfiFacebook className="text-white" size="2rem" />
@@ -98,30 +98,31 @@ const Wrt = () => {
             </div>
           </div>
         </div>
-        <div className="col-4 mx-auto">
+        <div className="col-md-4 mx-auto">
           <ul className="list-group">
+            <h3 className="text-center mt-4">Our Services</h3>
             <li className="list-group-item">
-              <a href="/services/wrt" className="text-dark">
-                1. WRT Turn Key Solution
+              <a href="/service/wrt" className="text-dark">
+                WRT Turn Key Solution
               </a>
             </li>
             <li className="list-group-item">
-              <a href="/services/ms" className="text-dark">
+              <a href="/service/ms" className="text-dark">
                 Managed Services
               </a>
             </li>
             <li className="list-group-item">
-              <a href="/services/ds" className="text-dark">
+              <a href="/service/ds" className="text-dark">
                 Digital Marketing
               </a>
             </li>
             <li className="list-group-item">
-              <a href="/services/sd" className="text-dark">
+              <a href="/service/sd" className="text-dark">
                 Software Development
               </a>
             </li>
             <li className="list-group-item">
-              <a href="/services/consultancy" className="text-dark">
+              <a href="/service/consultancy" className="text-dark">
                 Consultancy
               </a>
             </li>
