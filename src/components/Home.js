@@ -104,7 +104,11 @@ export default function Home() {
               gamers that are passionate about gaming and want to provide the
               best experience for all gamers.
             </p>
-            <button class="border rounded p-2 btn-green">Read More</button>
+            <button class="border rounded p-2 btn-green">
+              <a href="/about" className="text-white text-decoration-none">
+                Read More
+              </a>
+            </button>
           </div>
           <div class="col-md-6 bg-dark">
             <img
@@ -167,11 +171,18 @@ export default function Home() {
             />
             <div class="card-body">
               <h4 class="card-title">Managed Services</h4>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-              <button class="border rounded p-2 btn-green">Explore More</button>
+              <button class="border rounded p-2 btn-green mt-3">
+                <a
+                  href="/service/ms"
+                  target="_blank"
+                  className="text-white"
+                  style={{
+                    textDecoration: "none",
+                  }}
+                >
+                  Explore More
+                </a>
+              </button>
             </div>
           </div>
           <div class="card text-center mx-5">
@@ -186,11 +197,18 @@ export default function Home() {
             />
             <div class="card-body">
               <h4 class="card-title">Consultancy</h4>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-              <button class="border rounded p-2 btn-green">Explore More</button>
+              <button class="border rounded p-2 btn-green mt-3">
+                <a
+                  href="/service/consultancy"
+                  target="_blank"
+                  className="text-white"
+                  style={{
+                    textDecoration: "none",
+                  }}
+                >
+                  Explore More
+                </a>
+              </button>
             </div>
           </div>
           <div class="card text-center mx-5">
@@ -205,11 +223,18 @@ export default function Home() {
             />
             <div class="card-body">
               <h4 class="card-title">WRT Bet Turn Key</h4>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-              <button class="border rounded p-2 btn-green">Explore More</button>
+              <button class="border rounded p-2 btn-green mt-3">
+                <a
+                  href="/service/wrt"
+                  target="_blank"
+                  className="text-white"
+                  style={{
+                    textDecoration: "none",
+                  }}
+                >
+                  Explore More
+                </a>
+              </button>
             </div>
           </div>
           <div class="card text-center mx-5">
@@ -223,12 +248,19 @@ export default function Home() {
               }}
             />
             <div class="card-body">
-              <h4 class="card-title">Content Creation</h4>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-              <button class="border rounded p-2 btn-green">Explore More</button>
+              <h4 class="card-title">Software Development</h4>
+              <button class="border rounded p-2 btn-green mt-3">
+                <a
+                  href="/service/sd"
+                  target="_blank"
+                  className="text-white"
+                  style={{
+                    textDecoration: "none",
+                  }}
+                >
+                  Explore More
+                </a>
+              </button>
             </div>
           </div>
           <div class="card text-center mx-5">
@@ -243,11 +275,18 @@ export default function Home() {
             />
             <div class="card-body">
               <h4 class="card-title">Digital Marketing</h4>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-              <button class="border rounded p-2 btn-green">Explore More</button>
+              <button class="border rounded p-2 btn-green mt-3">
+                <a
+                  href="/service/dm"
+                  target="_blank"
+                  className="text-white"
+                  style={{
+                    textDecoration: "none",
+                  }}
+                >
+                  Explore More
+                </a>
+              </button>
             </div>
           </div>
         </Carousel>
