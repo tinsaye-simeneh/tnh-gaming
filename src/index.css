@@ -45,10 +45,22 @@
 .link-hover:hover {
   color: #8dc63f;
 }
+.mobile-logo {
+  display: none;
+}
+.desktop-logo {
+  display: block;
+}
 @media screen and (max-width: 768px) {
   .carousel-btn {
     margin-top: 45%;
     height: 10%;
+  }
+  .mobile-logo {
+    display: block;
+  }
+  .desktop-logo {
+    display: none;
   }
   .custom-container {
     width: 100%;

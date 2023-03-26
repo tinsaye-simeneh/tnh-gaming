@@ -15,8 +15,8 @@ const Navbar = () => {
   return (
     <>
       <nav className="navbar navbar-expand-lg navbar-light bg-white pt-3">
-        <div className="container py-3">
-          <a className="navbar-brand text-dark" href="./Home">
+        <div className="container py-3 mx-auto text-center">
+          <a className="navbar-brand text-dark  mobile-logo" href="./Home">
             <img className="logo" src={logo} alt="logo..." width={150} />
           </a>
           <button
@@ -35,7 +35,19 @@ const Navbar = () => {
             className="collapse navbar-collapse text-center"
             id="navbarSupportedContent"
           >
-            <ul className="navbar-nav ms-auto">
+            <ul className="navbar-nav mx-auto">
+              <li className="nav-item active mt-3 mx-2 desktop-logo">
+                <Link to="/" className="nav-link">
+                  <a className="navbar-brand text-dark" href="./Home">
+                    <img
+                      className="logo"
+                      src={logo}
+                      alt="logo..."
+                      width={150}
+                    />
+                  </a>
+                </Link>
+              </li>
               <li className="nav-item active mt-3 mx-2">
                 <Link to="/" className="nav-link">
                   Home
