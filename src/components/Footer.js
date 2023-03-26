@@ -67,40 +67,28 @@ const Footer = () => {
           <div className="mx-auto my-3">
             <ul className="list-unstyled">
               <li className="text-white">
-                <a
-                  href="/service/wrt"
-                  className="text-white text-decoration-none"
-                >
+                <a href="/wrt" className="text-white text-decoration-none">
                   wrt Bet turn Key
                 </a>
               </li>
               <li className="text-white">
-                <a
-                  href="/service/ms"
-                  className="text-white text-decoration-none"
-                >
+                <a href="/ms" className="text-white text-decoration-none">
                   Managed Services
                 </a>
               </li>
               <li className="text-white">
-                <a
-                  href="/service/dm"
-                  className="text-white text-decoration-none"
-                >
+                <a href="/dm" className="text-white text-decoration-none">
                   Digital Marketing
                 </a>
               </li>
               <li className="text-white">
-                <a
-                  href="/service/sd"
-                  className="text-white text-decoration-none"
-                >
+                <a href="/sd" className="text-white text-decoration-none">
                   Software Development
                 </a>
               </li>
               <li className="text-white">
                 <a
-                  href="/service/consultancy"
+                  href="/consultancy"
                   className="text-white text-decoration-none"
                 >
                   Consultancy
@@ -129,10 +117,7 @@ const Footer = () => {
                 </a>
               </li>
               <li className="text-white">
-                <a
-                  href="/service/wrt"
-                  className="text-white text-decoration-none"
-                >
+                <a href="/wrt" className="text-white text-decoration-none">
                   Services
                 </a>
               </li>

@@ -23,11 +23,11 @@ export default function App() {
             <Route path="contact" element={<ContactUs />} />
             <Route path="about" element={<About />} />
             <Route path="career" element={<Career />} />
-            <Route path="service/wrt" element={<Wrt />} />
-            <Route path="service/ms" element={<Ms />} />
-            <Route path="service/dm" element={<Dm />} />
-            <Route path="service/sd" element={<Sd />} />
-            <Route path="service/consultancy" element={<Consultancy />} />
+            <Route path="wrt" element={<Wrt />} />
+            <Route path="ms" element={<Ms />} />
+            <Route path="dm" element={<Dm />} />
+            <Route path="sd" element={<Sd />} />
+            <Route path="consultancy" element={<Consultancy />} />
             <Route path="*" element={<Home />} />
           </Route>
         </Routes>

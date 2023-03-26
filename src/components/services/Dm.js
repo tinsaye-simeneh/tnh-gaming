@@ -83,27 +83,27 @@ const Dm = () => {
           <ul className="list-group">
             <h3 className="text-center mt-4">Our Services</h3>
             <li className="list-group-item">
-              <a href="/service/wrt" className="text-dark">
+              <a href="/wrt" className="text-dark">
                 WRT Turn Key Solution
               </a>
             </li>
             <li className="list-group-item">
-              <a href="/service/ms" className="text-dark">
+              <a href="/ms" className="text-dark">
                 Managed Services
               </a>
             </li>
             <li className="list-group-item">
-              <a href="/service/ds" className="text-dark">
+              <a href="/ds" className="text-dark">
                 Digital Marketing
               </a>
             </li>
             <li className="list-group-item">
-              <a href="/service/sd" className="text-dark">
+              <a href="/sd" className="text-dark">
                 Software Development
               </a>
             </li>
             <li className="list-group-item">
-              <a href="/service/consultancy" className="text-dark">
+              <a href="/consultancy" className="text-dark">
                 Consultancy
               </a>
             </li>

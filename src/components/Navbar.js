@@ -59,19 +59,19 @@ const Navbar = () => {
                     class="dropdown-menu text-center border-0"
                     aria-labelledby="dropdownMenuLink"
                   >
-                    <a href="/service/wrt" class="dropdown-item">
+                    <a href="/wrt" class="dropdown-item">
                       wrt Bet turn Key
                     </a>
-                    <a href="/service/ms" class="dropdown-item">
+                    <a href="/ms" class="dropdown-item">
                       Managed Services
                     </a>
-                    <a href="/service/dm" class="dropdown-item">
+                    <a href="/dm" class="dropdown-item">
                       Digital Marketing
                     </a>
-                    <a href="/service/sd" class="dropdown-item">
+                    <a href="/sd" class="dropdown-item">
                       Software Development
                     </a>
-                    <a href="/service/consultancy" class="dropdown-item">
+                    <a href="/consultancy" class="dropdown-item">
                       Consultancy
                     </a>
                   </div>

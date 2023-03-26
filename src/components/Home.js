@@ -173,7 +173,7 @@ export default function Home() {
               <h4 class="card-title">Managed Services</h4>
               <button class="border rounded p-2 btn-green mt-3">
                 <a
-                  href="/service/ms"
+                  href="/ms"
                   target="_blank"
                   className="text-white"
                   style={{
@@ -199,7 +199,7 @@ export default function Home() {
               <h4 class="card-title">Consultancy</h4>
               <button class="border rounded p-2 btn-green mt-3">
                 <a
-                  href="/service/consultancy"
+                  href="/consultancy"
                   target="_blank"
                   className="text-white"
                   style={{
@@ -225,7 +225,7 @@ export default function Home() {
               <h4 class="card-title">WRT Bet Turn Key</h4>
               <button class="border rounded p-2 btn-green mt-3">
                 <a
-                  href="/service/wrt"
+                  href="/wrt"
                   target="_blank"
                   className="text-white"
                   style={{
@@ -251,7 +251,7 @@ export default function Home() {
               <h4 class="card-title">Software Development</h4>
               <button class="border rounded p-2 btn-green mt-3">
                 <a
-                  href="/service/sd"
+                  href="/sd"
                   target="_blank"
                   className="text-white"
                   style={{
@@ -277,7 +277,7 @@ export default function Home() {
               <h4 class="card-title">Digital Marketing</h4>
               <button class="border rounded p-2 btn-green mt-3">
                 <a
-                  href="/service/dm"
+                  href="/dm"
                   target="_blank"
                   className="text-white"
                   style={{
