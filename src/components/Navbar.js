@@ -42,9 +42,40 @@ const Navbar = () => {
                 </Link>
               </li>
               <li className="nav-item mt-3 mx-2">
-                <Link to="/service/wrt" className="nav-link">
-                  Services
-                </Link>
+                <div class="dropdown show text-secondary">
+                  <a
+                    class="btn btn-white dropdown-toggle text-secondary pt-2"
+                    href="#"
+                    role="button"
+                    id="dropdownMenuLink"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    Services
+                  </a>
+
+                  <div
+                    class="dropdown-menu text-center border-0"
+                    aria-labelledby="dropdownMenuLink"
+                  >
+                    <a href="/service/wrt" class="dropdown-item">
+                      wrt Bet turn Key
+                    </a>
+                    <a href="/service/ms" class="dropdown-item">
+                      Managed Services
+                    </a>
+                    <a href="/service/dm" class="dropdown-item">
+                      Digital Marketing
+                    </a>
+                    <a href="/service/sd" class="dropdown-item">
+                      Software Development
+                    </a>
+                    <a href="/service/consultancy" class="dropdown-item">
+                      Consultancy
+                    </a>
+                  </div>
+                </div>
               </li>
               <li className="nav-item mt-3 mx-2">
                 <Link to="/career" className="nav-link">
