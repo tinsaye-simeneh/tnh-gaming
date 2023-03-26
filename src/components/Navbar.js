@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../assets/images/logo.png";
+import { TbSpeakerphone } from "react-icons/tb";
 import { Outlet, Link } from "react-router-dom";
 
 const Navbar = () => {
@@ -106,8 +107,9 @@ const Navbar = () => {
               </li>
               <li className="nav-item mx-2" id="Account">
                 <Link to="/contact" className="nav-link">
-                  <button className="border rounded btn-green p-3 full-width">
-                    <i className="fas fa-user-circle"></i> Book a demo
+                  <button className="border rounded btn-green p-3 full-width text-dark">
+                    <TbSpeakerphone className="me-2" color="white" size={25} />
+                    Book a demo
                   </button>
                 </Link>
               </li>
