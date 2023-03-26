@@ -58,7 +58,10 @@ const About = () => {
                 might be , TNH is your gateway to Africa.
                 <div className="mt-3">
                   <button className="btn btn-outline-success">
-                    <a href="https://www.tnhgaming.com/contact-us">
+                    <a
+                      href="https://www.tnhgaming.com/contact-us"
+                      className="text-decoration-none text-green link-hover"
+                    >
                       Get Started
                     </a>
                   </button>

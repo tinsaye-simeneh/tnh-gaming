@@ -42,6 +42,9 @@
   width: 75%;
   height: 100%;
 }
+.link-hover:hover {
+  color: #8dc63f;
+}
 @media screen and (max-width: 768px) {
   .carousel-btn {
     margin-top: 45%;
