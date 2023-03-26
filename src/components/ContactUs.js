@@ -16,7 +16,7 @@ const ContactUs = () => {
             style={{ fontWeight: "bold" }}
           >
             Lets Chat <br />
-            Tell me about <br /> your Concerns
+            Tell Us about <br /> your Concerns
           </h1>
           <p className="caros text-dark px-5 pt-2">
             Lets create something better

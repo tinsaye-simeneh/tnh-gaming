@@ -53,50 +53,38 @@ const Ms = () => {
             Market Entry: We fully manage market entry service, which includes
             end-to-end operational set-up & management, and product consultancy.
           </p>
-          <div className="row bg-green py-3">
-            <div className="col-md-8 mx-auto text-white">
-              Follow us on:
-              <a href="https://www.facebook.com/" className="mx-3">
-                <TfiFacebook className="text-white" size="2rem" />
-              </a>
-              <a href="https://twitter.com/" className="mx-3">
-                <TfiTwitter className="text-white" size="2rem" />
-              </a>
-              <a href="https://www.instagram.com/" className="mx-3">
-                <TfiInstagram className="text-white" size="2rem" />
-              </a>
-              <a href="https://www.linkedin.com/" className="mx-3">
-                <TfiLinkedin className="text-white" size="2rem" />
-              </a>
-            </div>
-          </div>
         </div>
         <div className="col-md-4 mx-auto">
           <ul className="list-group">
             <h3 className="text-center mt-4">Our Services</h3>
             <li className="list-group-item">
-              <a href="/wrt" className="text-dark">
+              <a href="/wrt" className="text-dark text-decoration-none">
                 WRT Turn Key Solution
+                <span className="text-green float-end">></span>
               </a>
             </li>
             <li className="list-group-item">
-              <a href="/ms" className="text-dark">
+              <a href="/ms" className="text-dark text-decoration-none">
                 Managed Services
+                <span className="text-green float-end">></span>
               </a>
             </li>
             <li className="list-group-item">
-              <a href="/dm" className="text-dark">
+              <a href="/ds" className="text-dark text-decoration-none">
                 Digital Marketing
+                <span className="text-green float-end">></span>
               </a>
             </li>
             <li className="list-group-item">
-              <a href="/sd" className="text-dark">
+              <a href="/sd" className="text-dark text-decoration-none">
                 Software Development
+                <span className="text-green float-end">></span>
               </a>
             </li>
             <li className="list-group-item">
-              <a href="/consultancy" className="text-dark">
+              <a href="/consultancy" className="text-dark text-decoration-none">
                 Consultancy
+                <span className="text-green float-end">></span>
               </a>
             </li>
           </ul>

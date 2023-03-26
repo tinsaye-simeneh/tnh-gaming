@@ -41,14 +41,14 @@ const Career = () => {
           <p className="text-center">
             We are a team of passionate and talented individuals who are
             dedicated to delivering competitive results, working together as a
-            team, by combining our unique set of skills. STM believes that all
+            team, by combining our unique set of skills. TNH believes that all
             ideas and opinions matter, and where the will to excel is not an
             object of fear. If you have assets to bring to our table we want to
             know more. {""}
           </p>
           <p className="text-center">
             Send your Details with your CV to {""}
-            <a href="mailto: tnh.career@outlook.com">tnh.career@outlook.com</a>
+            <a href="mailto: contact@tnhgaming.com">contact@tnhgaming.com</a>
           </p>
         </div>
       </div>

@@ -180,7 +180,7 @@ export default function Home() {
                     textDecoration: "none",
                   }}
                 >
-                  Explore More
+                  Explore More >>
                 </a>
               </button>
             </div>
@@ -206,7 +206,7 @@ export default function Home() {
                     textDecoration: "none",
                   }}
                 >
-                  Explore More
+                  Explore More >>
                 </a>
               </button>
             </div>
@@ -232,7 +232,7 @@ export default function Home() {
                     textDecoration: "none",
                   }}
                 >
-                  Explore More
+                  Explore More >>
                 </a>
               </button>
             </div>
@@ -258,7 +258,7 @@ export default function Home() {
                     textDecoration: "none",
                   }}
                 >
-                  Explore More
+                  Explore More >>
                 </a>
               </button>
             </div>
@@ -284,7 +284,7 @@ export default function Home() {
                     textDecoration: "none",
                   }}
                 >
-                  Explore More
+                  Explore More >>
                 </a>
               </button>
             </div>

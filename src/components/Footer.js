@@ -68,22 +68,22 @@ const Footer = () => {
             <ul className="list-unstyled">
               <li className="text-white">
                 <a href="/wrt" className="text-white text-decoration-none">
-                  wrt Bet turn Key
+                  >> wrt Bet turn Key
                 </a>
               </li>
-              <li className="text-white">
+              <li className="text-white text-left">
                 <a href="/ms" className="text-white text-decoration-none">
-                  Managed Services
+                  >> Managed Services
                 </a>
               </li>
               <li className="text-white">
                 <a href="/dm" className="text-white text-decoration-none">
-                  Digital Marketing
+                  >> Digital Marketing
                 </a>
               </li>
               <li className="text-white">
                 <a href="/sd" className="text-white text-decoration-none">
-                  Software Development
+                  >> Software Development
                 </a>
               </li>
               <li className="text-white">
@@ -91,7 +91,7 @@ const Footer = () => {
                   href="/consultancy"
                   className="text-white text-decoration-none"
                 >
-                  Consultancy
+                  >> Consultancy
                 </a>
               </li>
             </ul>
@@ -103,22 +103,22 @@ const Footer = () => {
             <ul className="list-unstyled">
               <li className="text-white">
                 <a href="/about" className="text-white text-decoration-none">
-                  About Us
+                  >> About Us
                 </a>
               </li>
               <li className="text-white">
                 <a href="/career" className="text-white text-decoration-none">
-                  Career
+                  >> Career
                 </a>
               </li>
               <li className="text-white">
                 <a href="/contact" className="text-white text-decoration-none">
-                  Contact us
+                  >> Contact us
                 </a>
               </li>
               <li className="text-white">
                 <a href="/wrt" className="text-white text-decoration-none">
-                  Services
+                  >> Services
                 </a>
               </li>
             </ul>
