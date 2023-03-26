@@ -50,14 +50,14 @@ const Navbar = () => {
                 </Link>
               </li>
               <li className="nav-item active mt-3 mx-2">
-                <Link to="/" className="nav-link">
+                <Link to="/" className="nav-link text-dark">
                   Home
                 </Link>
               </li>
               <li className="nav-item mt-3 mx-2">
                 <div class="dropdown show text-secondary">
                   <a
-                    class="btn btn-white dropdown-toggle text-secondary pt-2"
+                    class="btn btn-white dropdown-toggle text-secondary pt-2 text-dark"
                     href="#"
                     role="button"
                     id="dropdownMenuLink"
@@ -91,17 +91,17 @@ const Navbar = () => {
                 </div>
               </li>
               <li className="nav-item mt-3 mx-2">
-                <Link to="/career" className="nav-link">
+                <Link to="/career" className="nav-link text-dark">
                   Career
                 </Link>
               </li>
               <li className="nav-item mt-3 mx-2">
-                <Link to="/about" className="nav-link">
+                <Link to="/about" className="nav-link text-dark">
                   About us
                 </Link>
               </li>
               <li className="nav-item mt-3 mx-2">
-                <Link to="/contact" className="nav-link">
+                <Link to="/contact" className="nav-link text-dark">
                   Contact Us
                 </Link>
               </li>
