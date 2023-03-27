@@ -50,7 +50,13 @@ const Navbar = () => {
                 </Link>
               </li>
               <li className="nav-item active mt-3 mx-2">
-                <Link to="/" className="nav-link text-dark">
+                <Link
+                  to="/"
+                  className="nav-link text-dark"
+                  style={{
+                    fontWeight: "bold",
+                  }}
+                >
                   Home
                 </Link>
               </li>
@@ -63,6 +69,9 @@ const Navbar = () => {
                     id="dropdownMenuLink"
                     data-toggle="dropdown"
                     aria-haspopup="true"
+                    style={{
+                      fontWeight: "bold",
+                    }}
                     aria-expanded="false"
                   >
                     Services
@@ -72,42 +81,95 @@ const Navbar = () => {
                     class="dropdown-menu text-center border-0"
                     aria-labelledby="dropdownMenuLink"
                   >
-                    <a href="/wrt" class="dropdown-item">
+                    <a
+                      href="/wrt"
+                      class="dropdown-item"
+                      style={{
+                        fontWeight: "bold",
+                      }}
+                    >
                       wrt Bet turn Key
                     </a>
-                    <a href="/ms" class="dropdown-item">
+                    <a
+                      href="/ms"
+                      class="dropdown-item"
+                      style={{
+                        fontWeight: "bold",
+                      }}
+                    >
                       Managed Services
                     </a>
-                    <a href="/dm" class="dropdown-item">
+                    <a
+                      href="/dm"
+                      class="dropdown-item"
+                      style={{
+                        fontWeight: "bold",
+                      }}
+                    >
                       Digital Marketing
                     </a>
-                    <a href="/sd" class="dropdown-item">
+                    <a
+                      href="/sd"
+                      class="dropdown-item"
+                      style={{
+                        fontWeight: "bold",
+                      }}
+                    >
                       Software Development
                     </a>
-                    <a href="/consultancy" class="dropdown-item">
+                    <a
+                      href="/consultancy"
+                      class="dropdown-item"
+                      style={{
+                        fontWeight: "bold",
+                      }}
+                    >
                       Consultancy
                     </a>
                   </div>
                 </div>
               </li>
               <li className="nav-item mt-3 mx-2">
-                <Link to="/career" className="nav-link text-dark">
+                <Link
+                  to="/career"
+                  className="nav-link text-dark"
+                  style={{
+                    fontWeight: "bold",
+                  }}
+                >
                   Career
                 </Link>
               </li>
               <li className="nav-item mt-3 mx-2">
-                <Link to="/about" className="nav-link text-dark">
+                <Link
+                  to="/about"
+                  className="nav-link text-dark"
+                  style={{
+                    fontWeight: "bold",
+                  }}
+                >
                   About us
                 </Link>
               </li>
               <li className="nav-item mt-3 mx-2">
-                <Link to="/contact" className="nav-link text-dark">
+                <Link
+                  to="/contact"
+                  className="nav-link text-dark"
+                  style={{
+                    fontWeight: "bold",
+                  }}
+                >
                   Contact Us
                 </Link>
               </li>
               <li className="nav-item mx-2" id="Account">
                 <Link to="/contact" className="nav-link">
-                  <button className="border rounded btn-green p-3 full-width text-dark">
+                  <button
+                    className="border rounded btn-green p-3 full-width text-dark"
+                    style={{
+                      fontWeight: "bold",
+                    }}
+                  >
                     <TbSpeakerphone className="me-2" color="white" size={25} />
                     Book a demo
                   </button>
