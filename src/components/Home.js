@@ -176,7 +176,6 @@ export default function Home() {
               <button class="border rounded p-2 btn-green mt-3">
                 <Link
                   to="/ms"
-                  target="_blank"
                   className="text-white"
                   style={{
                     textDecoration: "none",
@@ -202,7 +201,6 @@ export default function Home() {
               <button class="border rounded p-2 btn-green mt-3">
                 <Link
                   to="/consultancy"
-                  target="_blank"
                   className="text-white"
                   style={{
                     textDecoration: "none",
@@ -228,7 +226,6 @@ export default function Home() {
               <button class="border rounded p-2 btn-green mt-3">
                 <Link
                   to="/wrt"
-                  target="_blank"
                   className="text-white"
                   style={{
                     textDecoration: "none",
@@ -254,7 +251,6 @@ export default function Home() {
               <button class="border rounded p-2 btn-green mt-3">
                 <Link
                   to="/sd"
-                  target="_blank"
                   className="text-white"
                   style={{
                     textDecoration: "none",
@@ -280,7 +276,6 @@ export default function Home() {
               <button class="border rounded p-2 btn-green mt-3">
                 <Link
                   to="/dm"
-                  target="_blank"
                   className="text-white"
                   style={{
                     textDecoration: "none",
