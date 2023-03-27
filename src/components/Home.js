@@ -171,19 +171,17 @@ export default function Home() {
                 borderRadius: "50%",
               }}
             />
-            <div class="card-body">
-              <h4 class="card-title">Managed Services</h4>
-              <button class="border rounded p-2 btn-green mt-3">
-                <Link
-                  to="/ms"
-                  className="text-white"
-                  style={{
-                    textDecoration: "none",
-                  }}
-                >
-                  Explore More >>
-                </Link>
-              </button>
+            <div class="card-body py-4">
+              <h4 class="card-title mb-5">Managed Services</h4>
+              <Link
+                to="/ms"
+                className="text-white border rounded p-2 btn-green"
+                style={{
+                  textDecoration: "none",
+                }}
+              >
+                Explore More >>
+              </Link>
             </div>
           </div>
           <div class="card text-center mx-5">
@@ -196,19 +194,17 @@ export default function Home() {
                 borderRadius: "50%",
               }}
             />
-            <div class="card-body">
-              <h4 class="card-title">Consultancy</h4>
-              <button class="border rounded p-2 btn-green mt-3">
-                <Link
-                  to="/consultancy"
-                  className="text-white"
-                  style={{
-                    textDecoration: "none",
-                  }}
-                >
-                  Explore More >>
-                </Link>
-              </button>
+            <div class="card-body py-4">
+              <h4 class="card-title mb-5">Consultancy</h4>
+              <Link
+                to="/consultancy"
+                className="text-white border rounded p-2 btn-green mt-3"
+                style={{
+                  textDecoration: "none",
+                }}
+              >
+                Explore More >>
+              </Link>
             </div>
           </div>
           <div class="card text-center mx-5">
@@ -221,19 +217,17 @@ export default function Home() {
                 borderRadius: "50%",
               }}
             />
-            <div class="card-body">
-              <h4 class="card-title">WRT Bet Turn Key</h4>
-              <button class="border rounded p-2 btn-green mt-3">
-                <Link
-                  to="/wrt"
-                  className="text-white"
-                  style={{
-                    textDecoration: "none",
-                  }}
-                >
-                  Explore More >>
-                </Link>
-              </button>
+            <div class="card-body py-4">
+              <h4 class="card-title mb-5">WRT Bet Turn Key</h4>
+              <Link
+                to="/wrt"
+                className="text-white border rounded p-2 btn-green mt-3"
+                style={{
+                  textDecoration: "none",
+                }}
+              >
+                Explore More >>
+              </Link>
             </div>
           </div>
           <div class="card text-center mx-5">
@@ -246,19 +240,17 @@ export default function Home() {
                 borderRadius: "50%",
               }}
             />
-            <div class="card-body">
-              <h4 class="card-title">Software Development</h4>
-              <button class="border rounded p-2 btn-green mt-3">
-                <Link
-                  to="/sd"
-                  className="text-white"
-                  style={{
-                    textDecoration: "none",
-                  }}
-                >
-                  Explore More >>
-                </Link>
-              </button>
+            <div class="card-body py-4">
+              <h4 class="card-title mb-5">Software Development</h4>
+              <Link
+                to="/sd"
+                className="text-white border rounded p-2 btn-green mt-3"
+                style={{
+                  textDecoration: "none",
+                }}
+              >
+                Explore More >>
+              </Link>
             </div>
           </div>
           <div class="card text-center mx-5">
@@ -271,19 +263,17 @@ export default function Home() {
                 borderRadius: "50%",
               }}
             />
-            <div class="card-body">
-              <h4 class="card-title">Digital Marketing</h4>
-              <button class="border rounded p-2 btn-green mt-3">
-                <Link
-                  to="/dm"
-                  className="text-white"
-                  style={{
-                    textDecoration: "none",
-                  }}
-                >
-                  Explore More >>
-                </Link>
-              </button>
+            <div class="card-body py-4">
+              <h4 class="card-title mb-5">Digital Marketing</h4>
+              <Link
+                to="/dm"
+                className="text-white border rounded p-2 btn-green mt-3"
+                style={{
+                  textDecoration: "none",
+                }}
+              >
+                Explore More >>
+              </Link>
             </div>
           </div>
         </Carousel>
