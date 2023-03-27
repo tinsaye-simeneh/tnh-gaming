@@ -15,7 +15,7 @@ const Ms = () => {
         <div
           className="col-10 mx-auto text-white text-center"
           style={{
-            fontSize: "2rem",
+            fontSize: "3rem",
           }}
         >
           Managed Services

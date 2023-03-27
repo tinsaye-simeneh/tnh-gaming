@@ -127,7 +127,7 @@ const Footer = () => {
       </div>
       <div className="row">
         <div className="col-md-12 text-center text-white py-3">
-          <hr />© 2023 TNH Gaming. All Rights Reserved.
+          <hr />© 2019 - 2023 TNH Gaming. All Rights Reserved.
         </div>{" "}
         <hr />
       </div>{" "}
