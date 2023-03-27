@@ -1,6 +1,7 @@
 import React from "react";
 import about from "../assets/images/about.png";
 import { FaEnvelope } from "react-icons/fa";
+import { Outlet, Link } from "react-router-dom";
 
 const About = () => {
   return (
@@ -58,12 +59,12 @@ const About = () => {
                 might be , TNH is your gateway to Africa.
                 <div className="mt-3">
                   <button className="btn btn-outline-success">
-                    <a
-                      href="https://www.tnhgaming.com/contact"
+                    <Link
+                      to="/contact"
                       className="text-decoration-none text-green link-hover"
                     >
                       Get Started
-                    </a>
+                    </Link>
                   </button>
                 </div>
               </div>
