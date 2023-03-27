@@ -67,32 +67,32 @@ const Footer = () => {
           <div className="mx-auto my-3">
             <ul className="list-unstyled">
               <li className="text-white">
-                <a href="/wrt" className="text-white text-decoration-none">
+                <Link to="/wrt" className="text-white text-decoration-none">
                   >> wrt Bet turn Key
-                </a>
+                </Link>
               </li>
               <li className="text-white text-left">
-                <a href="/ms" className="text-white text-decoration-none">
+                <Link to="/ms" className="text-white text-decoration-none">
                   >> Managed Services
-                </a>
+                </Link>
               </li>
               <li className="text-white">
-                <a href="/dm" className="text-white text-decoration-none">
+                <Link to="/dm" className="text-white text-decoration-none">
                   >> Digital Marketing
-                </a>
+                </Link>
               </li>
               <li className="text-white">
-                <a href="/sd" className="text-white text-decoration-none">
+                <Link to="/sd" className="text-white text-decoration-none">
                   >> Software Development
-                </a>
+                </Link>
               </li>
               <li className="text-white">
-                <a
-                  href="/consultancy"
+                <Link
+                  to="/consultancy"
                   className="text-white text-decoration-none"
                 >
                   >> Consultancy
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -102,24 +102,24 @@ const Footer = () => {
           <div className="mx-auto my-3">
             <ul className="list-unstyled">
               <li className="text-white">
-                <a href="/about" className="text-white text-decoration-none">
+                <Link to="/about" className="text-white text-decoration-none">
                   >> About Us
-                </a>
+                </Link>
               </li>
               <li className="text-white">
-                <a href="/career" className="text-white text-decoration-none">
+                <Link to="/career" className="text-white text-decoration-none">
                   >> Career
-                </a>
+                </Link>
               </li>
               <li className="text-white">
-                <a href="/contact" className="text-white text-decoration-none">
+                <Link to="/contact" className="text-white text-decoration-none">
                   >> Contact us
-                </a>
+                </Link>
               </li>
               <li className="text-white">
-                <a href="/wrt" className="text-white text-decoration-none">
+                <Link to="/wrt" className="text-white text-decoration-none">
                   >> Services
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
