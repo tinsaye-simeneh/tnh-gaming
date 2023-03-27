@@ -59,7 +59,7 @@ const About = () => {
                 <div className="mt-3">
                   <button className="btn btn-outline-success">
                     <a
-                      href="https://www.tnhgaming.com/contact-us"
+                      href="https://www.tnhgaming.com/contact"
                       className="text-decoration-none text-green link-hover"
                     >
                       Get Started

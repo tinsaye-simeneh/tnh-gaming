@@ -81,51 +81,51 @@ const Navbar = () => {
                     class="dropdown-menu text-center border-0"
                     aria-labelledby="dropdownMenuLink"
                   >
-                    <a
-                      href="/wrt"
+                    <Link
+                      to="/wrt"
                       class="dropdown-item"
                       style={{
                         fontWeight: "bold",
                       }}
                     >
                       wrt Bet turn Key
-                    </a>
-                    <a
-                      href="/ms"
+                    </Link>
+                    <Link
+                      to="/ms"
                       class="dropdown-item"
                       style={{
                         fontWeight: "bold",
                       }}
                     >
                       Managed Services
-                    </a>
-                    <a
-                      href="/dm"
+                    </Link>
+                    <Link
+                      to="/consultancy"
                       class="dropdown-item"
                       style={{
                         fontWeight: "bold",
                       }}
                     >
                       Digital Marketing
-                    </a>
-                    <a
-                      href="/sd"
+                    </Link>
+                    <Link
+                      to="/sd"
                       class="dropdown-item"
                       style={{
                         fontWeight: "bold",
                       }}
                     >
                       Software Development
-                    </a>
-                    <a
-                      href="/consultancy"
+                    </Link>
+                    <Link
+                      to="/consultancy"
                       class="dropdown-item"
                       style={{
                         fontWeight: "bold",
                       }}
                     >
                       Consultancy
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </li>

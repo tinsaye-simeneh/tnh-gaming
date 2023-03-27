@@ -6,6 +6,7 @@ import {
   TfiInstagram,
   TfiLinkedin,
 } from "react-icons/tfi";
+import { Outlet, Link } from "react-router-dom";
 import "../../index.css";
 
 const Consultancy = () => {
@@ -65,34 +66,37 @@ const Consultancy = () => {
           <ul className="list-group">
             <h3 className="text-center mt-4">Our Services</h3>
             <li className="list-group-item">
-              <a href="/wrt" className="text-dark text-decoration-none">
+              <Link to="/wrt" className="text-dark text-decoration-none">
                 WRT Turn Key Solution
                 <span className="text-green float-end">></span>
-              </a>
+              </Link>
             </li>
             <li className="list-group-item">
-              <a href="/ms" className="text-dark text-decoration-none">
+              <Link to="/ms" className="text-dark text-decoration-none">
                 Managed Services
                 <span className="text-green float-end">></span>
-              </a>
+              </Link>
             </li>
             <li className="list-group-item">
-              <a href="/ds" className="text-dark text-decoration-none">
+              <Link to="/ds" className="text-dark text-decoration-none">
                 Digital Marketing
                 <span className="text-green float-end">></span>
-              </a>
+              </Link>
             </li>
             <li className="list-group-item">
-              <a href="/sd" className="text-dark text-decoration-none">
+              <Link to="/sd" className="text-dark text-decoration-none">
                 Software Development
                 <span className="text-green float-end">></span>
-              </a>
+              </Link>
             </li>
             <li className="list-group-item">
-              <a href="/consultancy" className="text-dark text-decoration-none">
+              <Link
+                to="/consultancy"
+                className="text-dark text-decoration-none"
+              >
                 Consultancy
                 <span className="text-green float-end">></span>
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
