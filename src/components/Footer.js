@@ -5,6 +5,8 @@ import { FaEnvelope } from "react-icons/fa";
 import Logo from "../assets/images/logo.png";
 import "../index.css";
 
+import { Outlet, Link } from "react-router-dom";
+
 const Footer = () => {
   return (
     <div className="container-fluid bg-green py-5">
