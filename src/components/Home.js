@@ -7,6 +7,8 @@ import { TbChartCircles } from "react-icons/tb";
 import { MdOutlineNoteAlt } from "react-icons/md";
 import { IoPhonePortrait } from "react-icons/io5";
 import "react-multi-carousel/lib/styles.css";
+
+import { Outlet, Link } from "react-router-dom";
 import CarouselImg from "../assets/images/home-banner.jpg";
 import { FaEnvelope } from "react-icons/fa";
 
@@ -105,9 +107,9 @@ export default function Home() {
               best experience for all gamers.
             </p>
             <button class="border rounded p-2 btn-green">
-              <a href="/about" className="text-white text-decoration-none">
+              <Link to="/about" className="text-white text-decoration-none">
                 Read More
-              </a>
+              </Link>
             </button>
           </div>
           <div class="col-md-6 bg-dark">
