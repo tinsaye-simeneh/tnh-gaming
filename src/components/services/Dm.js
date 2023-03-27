@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { FaEnvelope } from "react-icons/fa";
 import {
   TfiFacebook,
@@ -11,6 +11,9 @@ import "../../index.css";
 import { Outlet, Link } from "react-router-dom";
 
 const Dm = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="container">
       <div className="row bg-dark my-5 py-5">

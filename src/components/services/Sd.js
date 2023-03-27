@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { FaEnvelope } from "react-icons/fa";
 import {
   TfiFacebook,
@@ -11,6 +11,9 @@ import "../../index.css";
 import { Outlet, Link } from "react-router-dom";
 
 const Sd = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="container">
       <div className="row bg-dark my-5 py-5">
@@ -73,7 +76,7 @@ const Sd = () => {
               </Link>
             </li>
             <li className="list-group-item">
-              <Link to="/ds" className="text-dark text-decoration-none">
+              <Link to="/dm" className="text-dark text-decoration-none">
                 Digital Marketing
                 <span className="text-green float-end">></span>
               </Link>

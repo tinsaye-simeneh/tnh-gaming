@@ -100,7 +100,7 @@ const Navbar = () => {
                       Managed Services
                     </Link>
                     <Link
-                      to="/consultancy"
+                      to="/dm"
                       class="dropdown-item"
                       style={{
                         fontWeight: "bold",
