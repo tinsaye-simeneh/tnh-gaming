@@ -72,7 +72,7 @@ const Ms = () => {
               </Link>
             </li>
             <li className="list-group-item">
-              <Link to="/ds" className="text-dark text-decoration-none">
+              <Link to="/dm" className="text-dark text-decoration-none">
                 Digital Marketing
                 <span className="text-green float-end">></span>
               </Link>
