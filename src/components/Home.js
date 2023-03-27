@@ -172,8 +172,8 @@ export default function Home() {
             <div class="card-body">
               <h4 class="card-title">Managed Services</h4>
               <button class="border rounded p-2 btn-green mt-3">
-                <a
-                  href="/ms"
+                <Link
+                  to="/ms"
                   target="_blank"
                   className="text-white"
                   style={{
@@ -181,7 +181,7 @@ export default function Home() {
                   }}
                 >
                   Explore More >>
-                </a>
+                </Link>
               </button>
             </div>
           </div>
@@ -198,8 +198,8 @@ export default function Home() {
             <div class="card-body">
               <h4 class="card-title">Consultancy</h4>
               <button class="border rounded p-2 btn-green mt-3">
-                <a
-                  href="/consultancy"
+                <Link
+                  to="/consultancy"
                   target="_blank"
                   className="text-white"
                   style={{
@@ -207,7 +207,7 @@ export default function Home() {
                   }}
                 >
                   Explore More >>
-                </a>
+                </Link>
               </button>
             </div>
           </div>
@@ -224,8 +224,8 @@ export default function Home() {
             <div class="card-body">
               <h4 class="card-title">WRT Bet Turn Key</h4>
               <button class="border rounded p-2 btn-green mt-3">
-                <a
-                  href="/wrt"
+                <Link
+                  to="/wrt"
                   target="_blank"
                   className="text-white"
                   style={{
@@ -233,7 +233,7 @@ export default function Home() {
                   }}
                 >
                   Explore More >>
-                </a>
+                </Link>
               </button>
             </div>
           </div>
@@ -250,8 +250,8 @@ export default function Home() {
             <div class="card-body">
               <h4 class="card-title">Software Development</h4>
               <button class="border rounded p-2 btn-green mt-3">
-                <a
-                  href="/sd"
+                <Link
+                  to="/sd"
                   target="_blank"
                   className="text-white"
                   style={{
@@ -259,7 +259,7 @@ export default function Home() {
                   }}
                 >
                   Explore More >>
-                </a>
+                </Link>
               </button>
             </div>
           </div>
@@ -276,8 +276,8 @@ export default function Home() {
             <div class="card-body">
               <h4 class="card-title">Digital Marketing</h4>
               <button class="border rounded p-2 btn-green mt-3">
-                <a
-                  href="/dm"
+                <Link
+                  to="/dm"
                   target="_blank"
                   className="text-white"
                   style={{
@@ -285,7 +285,7 @@ export default function Home() {
                   }}
                 >
                   Explore More >>
-                </a>
+                </Link>
               </button>
             </div>
           </div>
